@@ -26,7 +26,7 @@ main() {
   tmux set-option -g message-fg "${white}"
   tmux set-option -g message-command-bg "${navy}"
   tmux set-option -g message-command-fg "${white}"
-  tmux set-option -g status-left " #I #[bg=${navy},fg=${white}]${right_sep}"
+  tmux set-option -g status-left "#[bg=${pink},fg=${white}] #S #[bg=${white},fg=${pink}]${right_sep} #[fg=${black},bg=${white}]#I #[bg=${navy},fg=${white}]${right_sep}"
   tmux set-option -g status-left-style "fg=${black},bg=${white},bold"
   tmux set-option -g status-right "${left_sep}#[bg=${white},fg=${black}] %Y-%m-%d %H:%M "
   tmux set-option -g status-right-style "fg=${white},bg=${navy}"
