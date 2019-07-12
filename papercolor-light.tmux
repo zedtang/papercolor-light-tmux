@@ -31,6 +31,7 @@ main() {
   tmux set-option -g status-right "${left_sep}#[bg=${white},fg=${black}] %Y-%m-%d %H:%M "
   tmux set-option -g status-right-style "fg=${white},bg=${navy}"
   tmux set-window-option -g window-status-activity-style "fg=${white},bg=${aqua}"
+  tmux set-window-option -g window-status-bell-style ""
   tmux set-window-option -g window-status-separator ''
   tmux set-window-option -g window-status-format " #I #W "
   tmux set-window-option -g window-status-style "fg=${white},bg=${navy}"
