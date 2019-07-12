@@ -7,14 +7,11 @@ main() {
   white='#f5f5f5'
   black='#4d4d4c'
   pink='#d7005f'
-  blue='#4271ae'
   aqua='#3e999f'
 
   ## Icons
   left_sep=''
-  left_alt_sep=''
   right_sep=''
-  right_alt_sep=''
 
   tmux set-option -g status on
   tmux set-option -g status-left-length 100
@@ -35,7 +32,7 @@ main() {
   tmux set-window-option -g window-status-separator ''
   tmux set-window-option -g window-status-format " #I #W "
   tmux set-window-option -g window-status-style "fg=${white},bg=${navy}"
-  tmux set-window-option -g window-status-current-format "#[bg=${aqua},fg=${navy}]${right_sep}#[fg=${white}] #I ${right_alt_sep} #W #[fg=${aqua},bg=${navy}]${right_sep}"
+  tmux set-window-option -g window-status-current-format "#[bg=${aqua},fg=${navy}]${right_sep}#[fg=${white}] #I #W #[fg=${aqua},bg=${navy}]${right_sep}"
   tmux set-window-option -g window-status-current-style "fg=${white},bg=${aqua}"
 }
 
