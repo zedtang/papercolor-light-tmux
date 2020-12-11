@@ -7,7 +7,7 @@ A tmux theme for PaperColor Light color scheme.
 1. Install using tpm.
 
     ```tmux
-    set -g @plugin 'ch1r0x/papercolor-light-tmux'
+    set -g @plugin 'dev-ninjas-org/papercolor-light-tmux'
     ```
 
 ## Manual Installation
@@ -15,7 +15,7 @@ A tmux theme for PaperColor Light color scheme.
 1. Clone this repository.
 
     ```sh
-    git clone --depth=1 https://github.com/ch1r0x/papercolor-light-tmux.git
+    git clone --depth=1 https://github.com/dev-ninjas-org/papercolor-light-tmux.git
     ```
 
 1. Add following to your `.tmux.conf`.
